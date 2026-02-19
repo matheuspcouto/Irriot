@@ -29,7 +29,7 @@ public class IrrigacaoController implements Serializable {
 	public void setDados(String dados) {
 		try {
 			BufferedReader arquivo = new BufferedReader(new FileReader(
-					"C:\\Users\\mathe\\OneDrive\\Documentos\\UNITINS\\ESTR DADOS\\ProjetoIrrigacao\\Historico_de_Log.txt"));
+					"C:\\Users\\mathe\\OneDrive\\Documentos\\UNITINS\\ESTR DADOS\\Irriot\\Historico_de_Log.txt"));
 
 			List<String> arquivoArray = new ArrayList<String>();
 
